@@ -70,8 +70,7 @@ framing for shader art.
 - Move the mouse over the output window to drive `iMouse`
 
 **Render scale**
-The largest lever for expensive shaders, so it is exposed in the UI. Cost scales
-with pixel count, so 50% is roughly 4x cheaper. Measured on this machine with
+Measured on base M4 Mac with
 `shaderwaves2.metal` (12/36-iteration wave sums inside a 64-step raymarch):
 
 | Drawable | GPU time | Headroom |
