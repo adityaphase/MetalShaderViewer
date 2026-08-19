@@ -81,11 +81,6 @@ Measured on base M4 Mac with
 | 800x800 | 5.1 ms | 198 fps |
 | 400x400 | 1.7 ms | 602 fps |
 
-Note the default 800 pt canvas is 1600 x 1600 pixels on a 13.6" Retina display, which
-puts the two raymarching examples just under 60 fps at 100%. Drop **Render at** to
-75% or 50% for comfortable headroom — at this canvas size the upscale is hard to
-notice on organic content.
-
 ## Examples
 
 All three shaders are ported from `openglcli/example/`:
