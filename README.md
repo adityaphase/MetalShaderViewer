@@ -70,6 +70,7 @@ framing for shader art.
 - Move the mouse over the output window to drive `iMouse`
 
 **Render scale**
+
 Measured on base M4 Mac with
 `shaderwaves2.metal` (12/36-iteration wave sums inside a 64-step raymarch):
 
